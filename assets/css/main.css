@@ -82,8 +82,19 @@ h3.slide-title{
 .about-bio{
   background-image: url(../images/6.jpeg);
   background-size: cover;
+
 }
 .about-bio p{
   background-color: rgba(255, 255, 255, .8);
   padding: 20px 30px;
+  margin: 0;
+}
+.about-contact{
+  padding: 20px 0;
+  display: flex;
+  background-color: #d5a7708a;
+}
+.about-contact img{
+  max-width: 13%;
+  margin: auto;
 }

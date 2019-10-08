@@ -16,3 +16,9 @@ var swiper2 = new Swiper('.linear-swiper', {
   centeredSlides: true,
   loop: true,
 });
+var swiper2 = new Swiper('.linear-swiper-2', {
+  slidesPerView: 1.3,
+  spaceBetween: 30,
+  centeredSlides: true,
+  loop: true,
+});
