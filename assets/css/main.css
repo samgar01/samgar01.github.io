@@ -12,7 +12,7 @@ html, body{
   font-size: 16px;
 }
 header{
-  height: 10vh;
+  height: 12vh;
   background-color: #f4f4f4;
   box-shadow: 1px 0 4px rgba(0, 0, 0, .3);
   padding: 10px;
@@ -23,13 +23,21 @@ header h1{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
+header nav ul li{
+  display: inline-block;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: initial;
+  margin-right: 10px;
+}
 h3.slide-title{
   text-align: center;
   margin: 15px 0;
   font-family: 'Montserrat', sans-serif;
 }
 .main-container{
-  height: 90vh;
+  height: 88vh;
 }
 .swiper-container{
   height: 100%;

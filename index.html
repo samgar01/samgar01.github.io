@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Bea Mock Up</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800&display=swap" rel="stylesheet">
     <meta name='viewport' content='width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1'/>
     <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/vendor/swiper.css">
@@ -13,12 +13,28 @@
   <body>
     <header>
       <h1>MDP</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#about">Shop</a>
+          </li>
+          <li>
+            <a href="#about">News</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <div class="main-container">
       <div class="swiper-container vertical-swiper">
         <div class="swiper-wrapper">
           <!-- vertical slides -->
-          <div class="swiper-slide">
+          <div class="swiper-slide" data-hash='work'>
             <h3 class="slide-title">Work</h3>
             <div class="linear-swiper swiper-container">
               <div class="swiper-wrapper">
@@ -54,7 +70,9 @@
                 </div>
               </div>
             </div>
-
+          </div>
+          <div class="swiper-slide" data-hash='about'>
+            hola
           </div>
 
         </div>
@@ -71,7 +89,10 @@
           el: '.swiper-pagination',
           clickable: true,
         },
-        loop: true,
+        loop: false,
+        hashNavigation: {
+          watchState: true,
+        },
       });
 
       var swiper2 = new Swiper('.linear-swiper', {
