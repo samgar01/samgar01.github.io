@@ -33,7 +33,10 @@ header nav ul li a{
   font-size: 18px;
   font-weight: bold;
 }
-
+header nav ul li a:focus, header nav ul li a:active {
+  text-decoration: none;
+  outline: 0;
+}
 header nav.center ul{
   display: flex;
 }
@@ -79,7 +82,7 @@ h3.slide-title{
   background-image: url(../images/6.jpeg);
   background-size: cover;
 }
-.about-bio p{  
+.about-bio p{
   background-color: rgba(255, 255, 255, .8);
   padding: 20px 30px;
 }
