@@ -11,6 +11,7 @@ html, body{
 }
 header{
   height: 10vh;
+  background-color: lightgreen;
 }
 .swiper-own-container{
   height: 90vh;
