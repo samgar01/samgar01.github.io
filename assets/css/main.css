@@ -75,15 +75,11 @@ h3.slide-title{
   font-size: 18px;
   transition: .5s all;
 }
-/* .swiper-slide.swiper-slide-active .swiper-block-text p{
-  opacity: 1;
+.about-bio{
+  background-image: url(../images/6.jpeg);
+  background-size: cover;
 }
-.swiper-slide.swiper-slide-duplicate .swiper-block-text p{
-  opacity: 0;
+.about-bio p{  
+  background-color: rgba(255, 255, 255, .8);
+  padding: 20px 30px;
 }
-.swiper-slide.swiper-slide-prev .swiper-block-text p{
-  opacity: 0;
-}
-.swiper-slide.swiper-slide-next .swiper-block-text p{
-  opacity: 0;
-} */
