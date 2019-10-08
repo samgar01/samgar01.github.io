@@ -13,12 +13,21 @@ html, body{
 }
 header{
   height: 10vh;
-  background-color: lightgreen;
+  background-color: #f4f4f4;
+  box-shadow: 1px 0 4px rgba(0, 0, 0, .3);
+
 }
 header h1{
   /* font-size: 12px; */
   text-transform: capitalize;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+h3.slide-title{
+  text-align: center;
+  margin: 15px 0;
+  font-family: 'Montserrat', sans-serif;
 }
 .main-container{
   height: 90vh;
@@ -28,7 +37,7 @@ header h1{
 }
 /* swiper block own css */
 .linear-swiper{
-  margin-top: 30px;
+  /* margin-top: 10px; */
 }
 .swiper-block{
   padding: 5px;
@@ -38,9 +47,23 @@ header h1{
   width: 100%;
   border-radius: 4px;
   box-shadow: 1px 0 4px rgba(0, 0, 0, .3);
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .swiper-block .swiper-block-text p{
   margin: 0;
   text-align: center;
+  font-size: 18px;
+  transition: .5s all;
 }
+/* .swiper-slide.swiper-slide-active .swiper-block-text p{
+  opacity: 1;
+}
+.swiper-slide.swiper-slide-duplicate .swiper-block-text p{
+  opacity: 0;
+}
+.swiper-slide.swiper-slide-prev .swiper-block-text p{
+  opacity: 0;
+}
+.swiper-slide.swiper-slide-next .swiper-block-text p{
+  opacity: 0;
+} */
