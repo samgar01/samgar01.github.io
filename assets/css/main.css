@@ -90,11 +90,17 @@ h3.slide-title{
   margin: 0;
 }
 .about-contact{
-  padding: 20px 0;
-  display: flex;
+  padding: 20px;
   background-color: #d5a77059;
 }
 .about-contact img{
   max-width: 13%;
   margin: auto;
+}
+.each-rrss{
+  margin-bottom: 20px;
+
+}
+.each-rrss img, .each-rrss p{
+  display: inline-block;
 }
