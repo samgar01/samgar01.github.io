@@ -4,21 +4,40 @@
   padding: 0;
   box-sizing: 0;
   font-family: 'Roboto', sans-serif;
+  /* font-family: 'Times New Roman', sans-serif; */
 }
 /* styles */
 html, body{
   height: 100%;
+  font-size: 16px;
 }
 header{
   height: 10vh;
   background-color: lightgreen;
 }
-.swiper-own-container{
+header h1{
+  /* font-size: 12px; */
+  text-transform: capitalize;
+  margin: 0;
+}
+.main-container{
   height: 90vh;
 }
 .swiper-container{
   height: 100%;
 }
+/* swiper block own css */
 .swiper-block{
-  padding: 20px;
+  padding: 20px 40px;
+}
+.swiper-block .swiper-block-img img{
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 1px 0 4px rgba(0, 0, 0, .3);
+  margin-bottom: 30px;
+}
+.swiper-block .swiper-block-text p{
+  margin: 0;
+  text-align: center;
 }
