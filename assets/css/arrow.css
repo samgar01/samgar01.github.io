@@ -33,3 +33,11 @@
 	animation-delay:-0.5s;
 	-webkit-animation-delay:-0.5s; /* Safari and Chrome */
 }
+
+.instagram{
+  background-image: -webkit-linear-gradient(right, #FC7864, #FDA366);
+  background-image: -moz-linear-gradient(right, #FC7864, #FDA366);
+  background-image: -o-linear-gradient(right, #FC7864, #FDA366);
+  background-image: -ms-linear-gradient(right, #FC7864, #FDA366);
+  background-image: linear-gradient(right, #FC7864, #FDA366);
+}
