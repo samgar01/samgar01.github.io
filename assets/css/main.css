@@ -6,6 +6,18 @@
   font-family: 'Roboto', sans-serif;
 }
 /* styles */
+html, body{
+  height: 100%;
+}
+header{
+  height: 10vh;
+}
 .swiper-own-container{
-  
+  height: 90vh;
+}
+.swiper-container{
+  height: 100%;
+}
+.swiper-block{
+  padding: 20px;
 }
